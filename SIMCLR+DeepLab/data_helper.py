@@ -189,7 +189,7 @@ class SimclrUnlabeledDataset(torch.utils.data.Dataset):
                 images.append(r)
             image_tensor = torch.stack(images)
             #print(image_tensor.shape)
-            image_tensor = image_tensor.reshape(-1, 18,96,96)
+            image_tensor = image_tensor.reshape(-1, 18,256,306)
             
             return image_tensor, int(-1)
 
@@ -236,7 +236,7 @@ class SimclrLabeledDataset(torch.utils.data.Dataset):
             image = Image.open(image_path)
             images.append(self.transform(image))
         image_tensor = torch.stack(images)
-        image_tensor = image_tensor.reshape(18, 96,96)
+        image_tensor = image_tensor.reshape(18, 256,306)
 
         data_entries = self.annotation_dataframe[(self.annotation_dataframe['scene'] == scene_id) & (self.annotation_dataframe['sample'] == sample_id)]
         corners = data_entries[['fl_x', 'fr_x', 'bl_x', 'br_x', 'fl_y', 'fr_y','bl_y', 'br_y']].to_numpy()
