@@ -52,9 +52,9 @@ parser.add_argument('--log-interval', type=int, default=10, metavar='LI',
                     help='how many batches to wait before logging training status')
 parser.add_argument('--unlabelledSceneIndex', type=int, default=106, metavar='U',
                     help='unlabelled scene index')
-parser.add_argument('--labelledSceneIndex', type=int, default=130, metavar='L',
+parser.add_argument('--labelledSceneIndex', type=int, default=120, metavar='L',
                     help='labelled scene index')
-parser.add_argument('--validationSceneIndex', type=int, default=130, metavar='V',
+parser.add_argument('--validationSceneIndex', type=int, default=120, metavar='V',
                     help='validation scene index')
 
 
