@@ -115,9 +115,13 @@ class ModelLoader():
         convBoxes = []
         for box in boxes:
             xmin = box[0]
+            xmin = (xmin - 400)/10
             ymin = box[1]
+            ymin = (-ymin +400)/10
             xmax = box[2]
+            xmax = (xmax - 400)/10
             ymax = box[3]
+            ymax = (-ymax + 400)/10
             cbox = [[xmin,xmin,xmax,xmax], [ymin,ymax,ymin,ymax]]
             convBoxes.append(cbox)
         convBoxes = torch.Tensor(convBoxes)
