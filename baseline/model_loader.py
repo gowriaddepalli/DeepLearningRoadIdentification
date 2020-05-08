@@ -112,6 +112,8 @@ class ModelLoader():
 
     def convertBoundingBoxes(self, boxes):
         # convert [N,1,4] to [N,2,4]
+        if len(boxes) == 0:
+            boxes = [[0,0,0,0]]
         convBoxes = []
         for box in boxes:
             xmin = box[0]
