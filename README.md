@@ -15,6 +15,9 @@ Self Supervision (SIMCLR + Monocular) + Faster RCNN object Detection: - yet to c
 
 Self Supervision Monocular + Faster RCNN object Detection - yet to calculate
 
+Self Supervised - MonoLayout - Failed ( Top Down view  accuracy bad)
+Self Suoervised - Pseudo Lidar - Failed (https://piazza.com/class/k5spqaanqk51ks?cid=319)
+
 
 
 
