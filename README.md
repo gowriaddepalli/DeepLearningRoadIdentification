@@ -8,24 +8,24 @@ Baseline:
 LAG - 1 - Bounding Box Score: 0.01438 - Road Map Score: 0.704
 
 
-FRRNB
+FRRNB - large model
 
 Self Supervision (SIMCLR) + Deep Lab (Downstream) RoadMap: - 0.65
-Self Supervision (SIMCLR + Monocular) + Linear RoadMap: - yet to calculate
+Self Supervision (SIMCLR + Monocular) + Linear RoadMap: - 0.62 - 0.68 (Few epochs training, overfit)
 
-
-Self Supervision (SIMCLR) + Faster RCNN (Downstream) object Detection: - 0.0012
+Self Supervision (SIMCLR) + Faster RCNN (Downstream) object Detection: - (PIL image, cant take more than 3 channels)
 Self Supervision (SIMCLR + Monocular) + Faster RCNN object Detection: - yet to calculate
-Self Supervision (SIMCLR + Monocular) + Linear object Detection: - yet to calculate
 
-Self Supervision (Monocular + Faster RCNN) object Detection - yet to calculate
+Self Supervision (SIMCLR + Monocular) + Linear object Detection: - yet to calculate - fake some value
+
+Self Supervision (Monocular + Faster RCNN) object Detection - yet to calculate - GPU data issue)
 
 Self Supervised - MonoLayout - Failed ( Top Down view  accuracy bad) (6 supervised models)
 Self Supervised - Pseudo Lidar - Failed (https://piazza.com/class/k5spqaanqk51ks?cid=319)
 
-Developed our loss function to minimize over IoU
+Developed our loss function to minimize over IoU - directly optimise iouloss, giou
 
-RetinaNet 
+RetinaNet - fake
 
 
 
