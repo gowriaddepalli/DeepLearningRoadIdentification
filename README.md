@@ -23,7 +23,9 @@ Self Supervision (Monocular + Faster RCNN) object Detection - yet to calculate
 Self Supervised - MonoLayout - Failed ( Top Down view  accuracy bad) (6 supervised models)
 Self Supervised - Pseudo Lidar - Failed (https://piazza.com/class/k5spqaanqk51ks?cid=319)
 
-developed our loss function to minimize over IoU
+Developed our loss function to minimize over IoU
+
+RetinaNet 
 
 
 
