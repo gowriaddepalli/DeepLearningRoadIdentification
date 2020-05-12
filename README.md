@@ -12,7 +12,7 @@ LAG - 1 - Bounding Box Score: 0.017 - Road Map Score: 0.73
 
 
 
-![Road Map Accuracy](images/Result_Road_map.pnge)
+![Road Map Accuracy](images/Result_Road_map.png)
 
 
 
