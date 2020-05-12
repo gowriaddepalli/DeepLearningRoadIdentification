@@ -28,9 +28,9 @@ LAG - 1 - Bounding Box Score: 0.017 - Road Map Score: 0.73
 
 ## Team Name:
 Team Name: LAG
-Team members : Sree Gowri Addepalli (sga297@nyu.edu) \n
-             : Amartya Prasad (ap5891@nyu.edu)    \n                     
-             : Sree Lakshmi Addepalli(sla410@nyu.edu)\n
+Team members : Sree Gowri Addepalli (sga297@nyu.edu) &nbsp;
+             : Amartya Prasad (ap5891@nyu.edu)    &nbsp;               
+             : Sree Lakshmi Addepalli(sla410@nyu.edu) &nbsp;
 
 
 
