@@ -2,6 +2,10 @@
 
 This is the repository for Yann Le cunn project:
 
+## Tasks:
+
+![Road Map Accuracy](images/Task.png)
+
 ## Results:
 Baseline:
 
