@@ -9,6 +9,7 @@ This project presents our solution for the traffic environment task where the ob
 
 ## Architecture:
 
+![Road Map Accuracy](images/arch.png)
 
 ## Results:
 Baseline:
