@@ -11,6 +11,20 @@ This project presents our solution for the traffic environment task where the ob
 
 ![Road Map Accuracy](images/arch.png)
 
+
+## Our Work:
+
+- Researched on developing supervised, transfer, self supervised and semi- supervised deep learning models for autonomous driving cars in Pytorch.
+
+- The objective is to train a model using images captured by six different cameras attached to the same car to generate a top down view of the surrounding area using the ability of detecting objects (like car, trucks, bicycles, etc.) and the ability to draw the road map layout using object detection algorithms.
+
+- Used SOTA self supervised semi supervised framework SimCLR for training the data for road image generation and object detection and classification. Fine tuned the downstream tasks using transfer and supervised learning with models specific to Road Image (Resnet, DeepLab) .
+
+- Also built end to end segmentation pipeline with self supervised monocular depth estimation with depth maps, projecting 3D point clouds into 2D image space and object detection and classification through Faster RCNN and Retinanet with Generalized IoU loss.
+
+Ranked 11th amongst the 58 teams that participated in the competition.
+
+
 ## Results:
 Baseline:
 
