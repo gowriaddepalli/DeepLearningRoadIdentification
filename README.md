@@ -22,7 +22,7 @@ This project presents our solution for the traffic environment task where the ob
 
 - Also built end to end segmentation pipeline with self supervised monocular depth estimation with depth maps, projecting 3D point clouds into 2D image space and object detection and classification through Faster RCNN and Retinanet with Generalized IoU loss.
 
-Ranked 11th amongst the 58 teams that participated in the competition.
+- Ranked 11th amongst the 58 teams for object detection and 26th for road map task that participated in the competition.
 
 
 ## Results:
