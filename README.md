@@ -51,6 +51,9 @@ LAG - 1 - Bounding Box Score: 0.017 - Road Map Score: 0.73
              : Amartya Prasad (ap5891@nyu.edu)    \          
              : Sree Lakshmi Addepalli(sla410@nyu.edu) \
 
+## Referencing:
+
+Please give reference to this work, if you plan to use it.
 
 
 
